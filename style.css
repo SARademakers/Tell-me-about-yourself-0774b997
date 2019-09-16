@@ -1,9 +1,15 @@
 label {
-	Display: block;
+	/*display: block;*/
 	font: 1rem 'Fira sans' , sans-serif;
 }
 
 input,
 label {
-	margin: .4rem 0;width:200px;border-radius:30px;
+	margin: .4rem 0;
+	width: 200px;
+	border-radius: 30px;
+}
+
+.checkbox {
+	width:10px;
 }

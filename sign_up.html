@@ -8,14 +8,65 @@
 		<h1> Sign up </h1>
 			<form action="#" method="get" class="form">
 				<script src="script.js"></script>
-				<label for="naam">Naam :</label>
+				<label for="naam">Naam :</label> <br>
 				<input type="text" id="naam" name="Naam" size="10"> <br>
-				<label for="email">Email :</label>
+				<label for="email">Email :</label> <br>
 				<input type="email" id="email" name="email" size="10"> <br>
-				<label for="Telefoon">Telefoon Nummer :</label>
+				<label for="Telefoon">Telefoon Nummer :</label> <br>
 				<input type="tel" id="tel" name="Telefoon" size="10"> <br>
-				<label for="pin">Pin code :</label>
+				<label for="pin">Pin code :</label> <br>
 				<input type="password" maxlength="4" id="pin" name="Pin code" size="10"> <br>
+				<label for="provincie">Uit welke provincie kom je? </label> <br>
+				<select id="provincie" name="provincie">
+					<option value="Noord-Holland">Noord-Holland</option>
+					<option value="Zuid-Holland">Zuid-Holland</option>
+					<option value="Overijssel">Overijssel</option>
+					<option value="Drenthe">Drenthe</option>
+					<option value="Friesland">Friesland</option>
+					<option value="Groningen">Groningen</option>
+					<option value="Flevoland">Flevoland</option>
+					<option value="Gelderland">Gelderland</option>
+					<option value="Utrecht">Utrecht</option>
+					<option value="Zeeland">Zeeland</option>
+					<option value="Noord-Brabant">Noord-Brabant</option>
+					<option value="Limburg">Limburg</option>
+				</select> <br>
+				<label for="favoriete-dagen">Wat zijn je favoriete dagen? 
+				</label>
+				<div>
+					<input class="checkbox" type="checkbox" id="Maandag" name="Maandag"
+					checked> <label for="Maandag">Maandag</label>
+				</div>
+				<div>
+					<input class="checkbox" type="checkbox" id="Disndag" name="Dinsdag"
+					checked> <label for="Disndag">Dinsdag</label>
+				</div>
+				<div>
+					<input class="checkbox" type="checkbox" id="Woensdag" name="Woensdag"
+					checked> <label for="Woensdag">Woensdag</label>
+				</div>
+				<div>
+					<input class="checkbox" type="checkbox" id="Donderdag" name="Donderdag"
+					checked> <label for="Donderdag">Donderdag</label>
+				</div>
+				<div>
+					<input class="checkbox" type="checkbox" id="Vrijdag" name="Vrijdag"
+					checked> <label for="Vrijdag">Vrijdag</label>
+				</div>
+				<div>
+					<input class="checkbox" type="checkbox" id="Zaterdag" name="Zaterdag"
+					checked> <label for="Zaterdag">Zaterdag</label>
+				</div>
+				<div>
+					<input class="checkbox" type="checkbox" id="Zondag" name="Zondag"
+					checked> <label for="Zondag">Zondag</label>
+				</div> <br>
+				<label for="voetbal">Hou je van voetbal? :</label>
+				<select id="voetbal" name="voetbal">
+					<option value="Ja">Ja</option>
+					<option value="nee">Nee</option>
+				</select> <br>
 				<input type="submit" value="submit">
+
 	</body>
 </html>
